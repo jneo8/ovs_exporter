@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/canonical/ovsdb"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
-	"github.com/greenpau/ovsdb"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/promlog"
 	"github.com/prometheus/common/version"

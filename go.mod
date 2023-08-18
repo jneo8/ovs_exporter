@@ -3,8 +3,8 @@ module github.com/greenpau/ovs_exporter
 go 1.18
 
 require (
+	github.com/canonical/ovsdb v0.0.0-20230905084846-883f8f0005ba
 	github.com/go-kit/log v0.2.1
-	github.com/greenpau/ovsdb v1.0.3
 	github.com/prometheus/client_golang v1.13.0
 	github.com/prometheus/common v0.37.0
 )
